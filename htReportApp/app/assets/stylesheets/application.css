@@ -110,16 +110,36 @@
 }
 
 #yesMinor{
-  font-size: 40px;
-  margin-left: 40px;
+  font-size: 50px;
+  margin-left: 20px;
+
+}
+#underText{
+  font-size: 50px;
+  text-align: center;
 }
 #noMinor{
-  font-size: 40px;
-  margin-left: 40px;
-  margin-top: 20px;
+  font-size: 50px;
+  margin-left: 30px;
+  vertical-align: bottom;
+
 }
 input[type='radio']{
-  transform: scale(3);
+  transform: scale(4);
   margin-left: 150px;
-  
+
+}
+#infoBox{
+  border: 1px solid black;
+  margin-left: 60px;
+}
+#addInfo{
+  margin-top: 100px;
+}
+#radioNo{
+  margin-left: 50px;
+}
+#infoBox{
+  font-size: 40px;
+  margin-top: 75px;
 }

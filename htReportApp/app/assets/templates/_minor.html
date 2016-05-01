@@ -1,10 +1,13 @@
-<div id="minor">
-  <h1>Victim appears to be under 18?</h1>
+<div id="minor"><br /><br /><br />
+  <h1 id="underText">Victim appears to be under 18?</h1>
   <form id="minorForm">
 
      <input type="radio" name="yes" id="radioYes"><label id="yesMinor">Yes</label>
      <input type="radio" name="no" id="radioNo"><label id="noMinor">No</label>
     <!-- Comment (Put angular HIDE directive here) -->
-    <input type="submit" value="Next" />
+    <div id="addInfoContent">
+      <textarea cols="40" rows="10" id="infoBox" placeholder="Additional Information"></textarea>
+    </div>
+    <input type="submit" value="Next"  id="nextButtVic"/>
   </form>
 </div>
