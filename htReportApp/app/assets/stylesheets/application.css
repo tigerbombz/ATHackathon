@@ -279,3 +279,11 @@ div.navbar-collapse.collapse.in {
 #finishText{
   color: white;
 }
+
+.angular-google-map-container {
+        height: 900px;
+}
+
+.locationmap {
+  
+}
