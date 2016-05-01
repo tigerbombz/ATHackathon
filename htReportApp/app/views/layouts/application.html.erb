@@ -5,9 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <script src="http://fonts.googleapis.com/css?family=Lato:300"</script>
   <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.js"></script>
 </head>
 <body ng-app="sampleApp">
-  <div ui-view></div>
+  <div class="jumbotron" id="headerJumbo">
+    <div class="container">
+      <h1 id="title">Report Sex Trafficking</h1>
+    </div>
+  </div>
+  <div ui-view>
+
+  </div>
 </body>
 </html>
