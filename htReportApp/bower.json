@@ -17,6 +17,8 @@
   "dependencies": {
     "angular": "^1.5.5",
     "bootstrap": "^3.3.6",
-    "angular-route": "^1.5.5"
+    "angular-route": "^1.5.5",
+    "angular-google-map": "*",
+    "lodash": "^4.11.2"
   }
 }

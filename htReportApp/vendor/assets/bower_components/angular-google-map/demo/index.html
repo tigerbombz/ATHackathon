@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="googlemap-demo">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Google map</title>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.20/angular.js" data-semver="1.3.20"></script>
+    <script src="../src/angular-google-map.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <p>Hello {{name}}!</p>
+    <google-map class="google-map"
+                    info-template-url="map_info_window.html"
+                    markers-with-label="true"
+                    center="{{ items[0] | latLong }}"
+                    zoom="4"
+                    markers="{{ items | markersOptions }}"
+                    fit-bounds = "true"
+                    info-window="true"
+                    marker-icon ="marker-b.png"
+                    on-info-open="onInfoOpen(index)"
+                    on-markers-added="onMarkersAdded($event)"
+                ></google-map>
+  </body>
+
+</html>

@@ -1,8 +1,30 @@
-<div class="jumbotron" id="headerJumbo">
-  <div class="container">
-    <h1>MAP HERE</h1>
-  </div>
-</div>
+<style>
+    .angular-google-map-container {
+        height: 900px;
+}
+</style>
+
 <div>
-  <h1>Thank you for helping with the fight to prevent sexual exploitation of minors! Your help is greatly appreciated!</h1>
+  <h1 id="thankYou">Thank you for helping with the fight to prevent sexual exploitation of minors! Your help is greatly appreciated!</h1>
+</div>
+
+  <div id="map_canvas" ng-controller="googleMapCtrl" class="container">
+   <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options" events="map.events">
+
+    <ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id"></ui-gmap-marker>
+
+    <ui-gmap-marker ng-repeat="m in savedLocations " coords="m.coords" icon="m.icon" idkey="m.id"></ui-gmap-marker>
+
+    <ui-gmap-polyline ng-repeat="p in polylines" path="p.path" stroke="p.stroke" visible='p.visible'
+                   geodesic='p.geodesic' fit="false" editable="p.editable" draggable="p.draggable" icons='p.icons'></ui-gmap-polyline>
+  </ui-gmap-google-map>
+
+
+
+ <ul class="col-lg-6">
+   <li ng-repeat=" b in savedLocations">{{b.coords}}</li>
+ </ul>
+ <button ng-click="click()" id="finish"><a href="#/" id="finishText">Finish</a></button>
+
+
 </div>

@@ -1,4 +1,4 @@
-angular.module('sampleApp', ['ui.router','ui.bootstrap','templates'])
+angular.module('sampleApp', ['ui.router','ui.bootstrap','templates', 'uiGmapgoogle-maps'])
 
 .config(function($stateProvider,$urlRouterProvider) {
   $stateProvider

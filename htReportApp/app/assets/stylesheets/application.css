@@ -175,6 +175,7 @@ div.navbar-collapse.collapse.in {
   background-color: green;
 }
 
+
 #camera{
   margin-left: 25px;
 }
@@ -245,4 +246,36 @@ div.navbar-collapse.collapse.in {
   border-radius: 20px;
   margin-left: 425px;
   margin-top: 35px;
+}
+
+#thankYou{
+  text-align: center;
+  margin-top: 75px;
+}
+
+#heatMap{
+  border: 1px solid black;
+  height: 900px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#map_canvas{
+  margin-top: 100px;
+}
+
+#finish{
+  height: 100px;
+  width: 255px;
+  margin-left: 250px;
+  background-color: blue;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+#finishText{
+  color: white;
 }

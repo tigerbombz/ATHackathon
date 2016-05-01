@@ -5,9 +5,12 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-  <script src="http://fonts.googleapis.com/css?family=Lato:300"</script>
   <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.js"></script>
-  
+  <!-- Google Maps API -->
+ <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAMaZwB8F53MWTtQtvdW6XrShcoIUBqxPk"></script>
+
+ <script src="//rawgit.com/angular-ui/angular-google-maps/2.1.5/dist/angular-google-maps.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
 </head>
 <body ng-app="sampleApp">
   <%#<div class="jumbotron" id="headerJumbo">%>
@@ -27,10 +30,10 @@
       </button>
       <a class="navbar-brand" href="#">Report Human Trafficking</a>
     </div>
-  
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
-    
+
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Report</a></li>
         <li><a href="#">Info Map</a></li>

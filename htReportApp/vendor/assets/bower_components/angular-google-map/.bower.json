@@ -1,0 +1,14 @@
+{
+  "name": "angular-google-map",
+  "homepage": "https://github.com/sesubash/angular-google-map",
+  "_release": "8e2dffd7a7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8e2dffd7a70e090ec2e1fb2c1a32619ebbcf0363"
+  },
+  "_source": "https://github.com/sesubash/angular-google-map.git",
+  "_target": "*",
+  "_originalSource": "angular-google-map",
+  "_direct": true
+}
