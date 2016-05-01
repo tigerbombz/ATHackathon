@@ -185,9 +185,9 @@ div.navbar-collapse.collapse.in {
   width: 350px;
   font-size: 30px;
   margin-left: 300px;
-  background-color: blue;
+  background-color: #999999;
   border-radius: 20px;
-  color: white;
+  color: #424242;
   margin-top: 75px;
 }
 
@@ -211,15 +211,16 @@ div.navbar-collapse.collapse.in {
 }
 
 #provideAdd{
-  font-size: 40px;
-  margin-left: 30px;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: -15px;
 }
 
 #checkAdd{
-  margin-left: 150px;
+  margin-left: 70px;
   margin-top: 75px;
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
 }
 
 #name{
@@ -246,11 +247,14 @@ div.navbar-collapse.collapse.in {
   border-radius: 20px;
   margin-left: 425px;
   margin-top: 35px;
+  background-color: blue;
 }
 
 #thankYou{
   text-align: center;
   margin-top: 75px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #heatMap{
@@ -263,16 +267,16 @@ div.navbar-collapse.collapse.in {
 }
 
 #map_canvas{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #finish{
-  height: 100px;
-  width: 255px;
-  margin-left: 250px;
+  height: 50px;
+  width: 100px;
+  margin-left: 150px;
   background-color: blue;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 20px;
   margin-top: 50px;
 }
@@ -280,10 +284,88 @@ div.navbar-collapse.collapse.in {
   color: white;
 }
 
+
 .angular-google-map-container {
         height: 900px;
 }
 
-.locationmap {
-  
+
+#optional{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
 }
+
+#contactInfo{
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#backButt{
+  background-color: #1c3681;
+  height: 100px;
+  width: 175px;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-left: 60px;
+  margin-top: 800px;
+  position: fixed;
+}
+
+#input{
+  border: 1px solid black;
+}
+#frontButt{
+  background-color: #1c3681;
+  height: 100px;
+  width: 175px;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-left: 750px;
+  margin-top: 800px;
+  position: fixed;
+}
+
+
+@media (max-width: 2000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+

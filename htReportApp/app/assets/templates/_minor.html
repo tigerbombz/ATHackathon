@@ -1,17 +1,29 @@
-<div id="minor"><br /><br /><br />
-  <h1 id="underText">Victim appears to be under 18?</h1>
-  <form id="minorForm">
-
-     <input type="radio" name="yes" id="radioYes"><label id="yesMinor">Yes</label>
-     <input type="radio" name="no" id="radioNo"><label id="noMinor">No</label>
-    <!-- Comment (Put angular HIDE directive here) -->
-    <div id="addInfoContent">
-      <textarea cols="40" rows="10" id="infoBox" placeholder="Additional Information"></textarea>
+<h2 class="title" style="text-align:center"> Victim appears to be under 18?</h2>
+<div class="btn-group"  style=" margin-left: 320px"data-toggle="buttons">
+  <label class="btn btn-default">
+      <input type="radio" id="q156" name="quality[25]" value="1" /> Yes
+  </label> 
+  <label class="btn btn-default">
+      <input type="radio" id="q157" name="quality[25]" value="2" /> No
+  </label>
+</div>
+  <!-- Comment (Put angular HIDE directive here) -->
+  <div style:>
+    <textarea cols="40" rows="10" style="border: 1px solid black; margin-top:2em;margin-left: 20px" placeholder="Additional Information"></textarea>
+  </div>
+  <div class="row">
+    <div class="col-xs-6" style="padding:0px; margin-top:200px">
+      <input type="submit" style="background-color: purple" style="margin-top: 200px"value="Back" class="btn btn-primary btn-block"/>
     </div>
+    <div class="col-xs-6" style="padding:0px">
+      <input type="submit" style="margin-top: 200px"value="Next" class="btn btn-primary btn-block"/>
+    </div>
+
     <input type="submit" value="Next"  id="nextButtVic"/>
   </form>
   <button><a href="#/">Back</a></button>
 
 
+  </div>
 
 </div>
