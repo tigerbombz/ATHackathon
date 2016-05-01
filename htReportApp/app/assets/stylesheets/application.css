@@ -185,9 +185,9 @@ div.navbar-collapse.collapse.in {
   width: 350px;
   font-size: 30px;
   margin-left: 300px;
-  background-color: blue;
+  background-color: #999999;
   border-radius: 20px;
-  color: white;
+  color: #424242;
   margin-top: 75px;
 }
 
@@ -211,15 +211,16 @@ div.navbar-collapse.collapse.in {
 }
 
 #provideAdd{
-  font-size: 40px;
-  margin-left: 30px;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: -15px;
 }
 
 #checkAdd{
-  margin-left: 150px;
+  margin-left: 70px;
   margin-top: 75px;
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
 }
 
 #name{
@@ -246,6 +247,7 @@ div.navbar-collapse.collapse.in {
   border-radius: 20px;
   margin-left: 425px;
   margin-top: 35px;
+  background-color: blue;
 }
 
 #thankYou{
@@ -280,4 +282,42 @@ div.navbar-collapse.collapse.in {
 }
 #finishText{
   color: white;
+}
+#optional{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#contactInfo{
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#backButt{
+  background-color: #1c3681;
+  height: 100px;
+  width: 175px;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-left: 60px;
+  margin-top: 800px;
+  position: fixed;
+}
+
+#input{
+  border: 1px solid black;
+}
+#frontButt{
+  background-color: #1c3681;
+  height: 100px;
+  width: 175px;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-left: 750px;
+  margin-top: 800px;
+  position: fixed;
 }
