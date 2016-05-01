@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-#twilio routes 
 
+  root to: 'application#angular'
+
+#twilio routes 
 post '/receive_sms' => 'test#receive'
 
 end

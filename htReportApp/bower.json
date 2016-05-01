@@ -1,0 +1,22 @@
+{
+  "name": "ATHackathon",
+  "homepage": "https://github.com/tigerbombz/ATHackathon",
+  "authors": [
+    "tbd"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.5"
+  }
+}
