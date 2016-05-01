@@ -23,6 +23,10 @@ angular.module('sampleApp', ['ui.router','ui.bootstrap','templates', 'uiGmapgoog
       url: '/thankyou',
       templateUrl: '_thankyou.html'
     })
+    .state('about', {
+      url: '/about',
+      templateUrl: '_about.html'
+    })
 
   $urlRouterProvider.otherwise('/')
 });

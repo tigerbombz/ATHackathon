@@ -322,6 +322,16 @@ div.navbar-collapse.collapse.in {
   margin-top: 800px;
   position: fixed;
 }
+.aboutText{
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#homeButts{
+  margin-left: 115px;
+  background-color: #1c3681;
+
+}
 =======
 
 @media (max-width: 2000px) {
