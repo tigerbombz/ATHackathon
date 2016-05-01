@@ -1,14 +1,14 @@
 
 
 <div id="form">
-  <h1>Where did you observe the potential issue?</h1>
+  <h3 id="observe">Where did you observe the potential issue?</h3>
   <form id='locationInput'>
     <input type="text" name="street" id="street" placeholder="Enter street address or cross streets" /><br />
 
     </div>
-    <input type="submit" value="Next" id="nextButt" /></br>
+
   </form>
-    
+
   <div ng-controller="locationMapCtrl">
     <div id="map_canvas" ng-controller="googleMapCtrl" class="locationmap">
    <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options" events="map.events">
@@ -19,10 +19,12 @@
 
     <ui-gmap-polyline ng-repeat="p in polylines" path="p.path" stroke="p.stroke" visible='p.visible'
                    geodesic='p.geodesic' fit="false" editable="p.editable" draggable="p.draggable" icons='p.icons'></ui-gmap-polyline>
-  
+
   </ui-gmap-google-map>
 
-  </div> 
-  
-  <button><a href="#/">Back</a></button>
+  </div>
+
+
 </div>
+<button id="backButts">Back</button>
+<button id="subButts">Next</button>

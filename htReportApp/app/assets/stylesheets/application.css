@@ -70,15 +70,39 @@
   color: #4c4c4c;
 }
 #locationInput{
-  margin-left: 135px;
+  margin-left: 35px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  height: 50px;
 }
 #street{
-  font-size: 40px;
+  font-size: 20px;
   border: 1px solid black;
-  width: 700px;
-  height: 75px;
+  width: 350px;
+  height: 30px;
   margin-bottom: 15px;
+  margin-right: 50px;
 
+}
+#backButts{
+  height: 50px;
+  width: 100px;
+  margin-top: 325px;
+  margin-left: 25px;
+  background-color: #1c3681;
+  border-radius: 20px;
+  color: white;
+  position: fixed;
+}
+#subButts{
+  height: 50px;
+  width: 100px;
+  margin-top: 325px;
+  margin-left: 275px;
+  background-color: #1c3681;
+  border-radius: 20px;
+  color: white;
+  position: fixed;
 }
 
 #place{
@@ -99,12 +123,12 @@
 #nextButt{
   float: right;
   margin-right: 145px;
-  height: 100px;
-  width: 225px;
+  height: 50px;
+  width: 100px;
   background-color: #1c3681;
   color: white;
-  font-size: 50px;
-  margin-top: 50px;
+  font-size: 20px;
+  margin-top: 500px;
   border-radius: 20px;
 
 }
@@ -266,6 +290,7 @@ div.navbar-collapse.collapse.in {
 
 #map_canvas{
   margin-top: 50px;
+  height: 100px;
 }
 
 #finish{
@@ -282,8 +307,17 @@ div.navbar-collapse.collapse.in {
   color: white;
 }
 
+
+#observe{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 .angular-google-map-container {
-        height: 900px;
+        height: 400px;
+        width: 300px;
+        position: relative;
+        margin-left: 50px;
 }
 
 
@@ -325,7 +359,7 @@ div.navbar-collapse.collapse.in {
   margin-top: 800px;
   position: fixed;
 }
-<<<<<<< HEAD
+
 .aboutText{
   text-align: center;
   margin-left: 25px;
@@ -336,6 +370,12 @@ div.navbar-collapse.collapse.in {
   background-color: #1c3681;
 
 }
+
+#observe{
+  text-align: center;
+}
+
+
 
 @media (max-width: 2000px) {
     .navbar-header {
@@ -375,6 +415,7 @@ div.navbar-collapse.collapse.in {
     }
 }
 
+
 .fileUpload {
     position: relative;
     overflow: hidden;
@@ -391,6 +432,3 @@ div.navbar-collapse.collapse.in {
     opacity: 0;
     filter: alpha(opacity=0);
 }
-=======
-
->>>>>>> 9c090bc08da979a8945a38b9d8ccabbfda4f4ac9
