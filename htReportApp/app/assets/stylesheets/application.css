@@ -267,16 +267,16 @@ div.navbar-collapse.collapse.in {
 }
 
 #map_canvas{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #finish{
-  height: 100px;
-  width: 255px;
-  margin-left: 250px;
+  height: 50px;
+  width: 100px;
+  margin-left: 150px;
   background-color: blue;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 20px;
   margin-top: 50px;
 }
@@ -354,7 +354,7 @@ div.navbar-collapse.collapse.in {
         margin: 15px 0;
     }
     /* since 3.1.0 */
-    .navbar-collapse.collapse.in { 
+    .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
