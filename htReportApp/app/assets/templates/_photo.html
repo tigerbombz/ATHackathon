@@ -1,9 +1,12 @@
 <div id="photo">
-<<<<<<< HEAD
+  <h1 id="optional">[Optional] If you have a photo of the incident, trafficker, or trafficking location, upload it here. </h1>
   <button id="upload">Upload a Photo<span class="glyphicon glyphicon-camera" id="camera"></span></button><br /><br /><br />
-  <input type="checkbox" ng-model="provideInfo" id="checkAdd"/><span id="provideAdd">Provide Additional Information?</span>
+  <input type="checkbox" ng-model="provideInfo" id="checkAdd"/><span id="provideAdd">Provide Contact Information?</span>
+  <h2 id="contactInfo">We’ll only use this information to contact you if we need more detail about the incident. </h2>
+  <button id="backButt">Back</button>
+  <button id="frontButt">Submit</button>
   <div id="registration_form" ng-hide="!provideInfo">
-    <p id="additionalDrop">Additional Info</p>
+
       <form role="form" ng-submit="register()">
         <div class="form-group">
         <label for="name" id="name">Name:</label>
@@ -16,19 +19,7 @@
         <div class="form-group">
         <label for="phoneNumber" id="phoneNumber">Phone Number:</label>
           <input type="text" class="form-control" ng-model="new_user.password" id="input">
-        <button type="submit" class="btn btn-primary" id="registerInfo">Register</button>
+        
       </form>
   </div>
-=======
-  <h1>Upload a Photo</h1>
-
-  <form id="contactInfo" ><!--PROVIDE DROPDOWN (HIDE/SHOW) INPUT FIELDS -->
-    <input type="checkbox" name="contactCheckbox" />Provide Contact Info</br>
-    Name <input type="text" name="name" value="name">
-    Phone Number <input type="text" name="phone" value="phone" />
-    Email Address <input type="text" name="email" value="email"  />
-    <input type="submit" value="Finish" />
-  </form>
-   <button><a href="#/minor">Back</a></button>
->>>>>>> Angular
 </div>
