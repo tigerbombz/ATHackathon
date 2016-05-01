@@ -7,7 +7,7 @@ skip_before_action :verify_authenticity_token
 
     @message_body = params['Body']
     @from_number = params['From']
-    respond "yo"
+    respond "Thanks for your text. To submit a report of sex trafficking occurring in your community, fill out the form here:"
    #  message = "test" 
    #  number = '+14088323755'
    #  account_sid = 'AC928387fcf9b8b9b04df354947e0e7463'

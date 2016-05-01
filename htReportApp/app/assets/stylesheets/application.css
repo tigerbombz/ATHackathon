@@ -265,21 +265,76 @@ div.navbar-collapse.collapse.in {
 }
 
 #map_canvas{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #finish{
-  height: 100px;
-  width: 255px;
-  margin-left: 250px;
+  height: 50px;
+  width: 100px;
+  margin-left: 150px;
   background-color: blue;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 20px;
   margin-top: 50px;
 }
 #finishText{
   color: white;
+}
+
+.angular-google-map-container {
+        height: 900px;
+}
+
+
+#optional{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#contactInfo{
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#backButt{
+  background-color: #1c3681;
+  height: 100px;
+  width: 175px;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-left: 60px;
+  margin-top: 800px;
+  position: fixed;
+}
+
+#input{
+  border: 1px solid black;
+}
+#frontButt{
+  background-color: #1c3681;
+  height: 100px;
+  width: 175px;
+  color: white;
+  font-size: 40px;
+  border-radius: 20px;
+  margin-left: 750px;
+  margin-top: 800px;
+  position: fixed;
+}
+<<<<<<< HEAD
+.aboutText{
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#homeButts{
+  margin-left: 115px;
+  background-color: #1c3681;
+
 }
 
 @media (max-width: 2000px) {
@@ -312,7 +367,7 @@ div.navbar-collapse.collapse.in {
         margin: 15px 0;
     }
     /* since 3.1.0 */
-    .navbar-collapse.collapse.in { 
+    .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
@@ -336,3 +391,6 @@ div.navbar-collapse.collapse.in {
     opacity: 0;
     filter: alpha(opacity=0);
 }
+=======
+
+>>>>>>> 9c090bc08da979a8945a38b9d8ccabbfda4f4ac9
