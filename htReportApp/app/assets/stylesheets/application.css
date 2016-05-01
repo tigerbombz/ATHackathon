@@ -111,17 +111,19 @@
 
 #yesMinor{
   font-size: 50px;
-  margin-left: 20px;
+  margin-left: 30px;
+  vertical-align: middle;
 
 }
 #underText{
   font-size: 50px;
   text-align: center;
+  margin-bottom: 25px;
 }
 #noMinor{
   font-size: 50px;
   margin-left: 30px;
-  vertical-align: bottom;
+  vertical-align: middle;
 
 }
 input[type='radio']{
@@ -142,4 +144,89 @@ input[type='radio']{
 #infoBox{
   font-size: 40px;
   margin-top: 75px;
+}
+#nextButtVic{
+  height: 100px;
+  width: 255px;
+  background-color: blue;
+  font-size: 50px;
+  border-radius: 20px;
+  float: right;
+  margin-right: 55px;
+  margin-top: 50px;
+}
+
+#pictureUpload{
+  background-color: green;
+}
+
+#camera{
+  margin-left: 25px;
+}
+
+#upload{
+  height: 75px;
+  width: 350px;
+  font-size: 30px;
+  margin-left: 200px;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  margin-top: 75px;
+}
+
+#image{
+  background-color: blue;
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 275px;
+
+}
+
+#additionalDrop{
+  font-size: 40px;
+  margin-left: 250px;
+}
+#registration_form{
+  margin-top: 75px;
+}
+
+#provideAdd{
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+#checkAdd{
+  margin-left: 100px;
+  margin-top: 75px;
+  height: 25px;
+  width: 25px;
+}
+
+#name{
+  font-size: 40px;
+  margin-left: 150px;
+}
+#email{
+  font-size: 40px;
+  margin-left: 150px;
+}
+#phoneNumber{
+  font-size: 40px;
+  margin-left: 150px;
+}
+
+#input{
+  height: 55px;
+  width: 400px;
+  margin-left: 150px;
+}
+#registerInfo{
+  height: 100px;
+  font-size: 35px;
+  border-radius: 20px;
+  margin-left: 300px;
+  margin-top: 15px;
 }
