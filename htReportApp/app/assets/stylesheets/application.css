@@ -108,3 +108,18 @@
   border-radius: 20px;
 
 }
+
+#yesMinor{
+  font-size: 40px;
+  margin-left: 40px;
+}
+#noMinor{
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+input[type='radio']{
+  transform: scale(3);
+  margin-left: 150px;
+  
+}
