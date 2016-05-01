@@ -185,9 +185,9 @@ div.navbar-collapse.collapse.in {
   width: 350px;
   font-size: 30px;
   margin-left: 300px;
-  background-color: #999999;
+  background-color: blue;
   border-radius: 20px;
-  color: #424242;
+  color: white;
   margin-top: 75px;
 }
 
@@ -211,16 +211,15 @@ div.navbar-collapse.collapse.in {
 }
 
 #provideAdd{
-  font-size: 60px;
-  margin-left: 20px;
-  margin-top: -15px;
+  font-size: 40px;
+  margin-left: 30px;
 }
 
 #checkAdd{
-  margin-left: 70px;
+  margin-left: 150px;
   margin-top: 75px;
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 25px;
 }
 
 #name{
@@ -247,7 +246,6 @@ div.navbar-collapse.collapse.in {
   border-radius: 20px;
   margin-left: 425px;
   margin-top: 35px;
-  background-color: blue;
 }
 
 #thankYou{
@@ -283,46 +281,6 @@ div.navbar-collapse.collapse.in {
 #finishText{
   color: white;
 }
-<<<<<<< HEAD
-#optional{
-  font-size: 40px;
-  text-align: center;
-  margin-top: 50px;
-}
-
-#contactInfo{
-  text-align: center;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-#backButt{
-  background-color: #1c3681;
-  height: 100px;
-  width: 175px;
-  color: white;
-  font-size: 40px;
-  border-radius: 20px;
-  margin-left: 60px;
-  margin-top: 800px;
-  position: fixed;
-}
-
-#input{
-  border: 1px solid black;
-}
-#frontButt{
-  background-color: #1c3681;
-  height: 100px;
-  width: 175px;
-  color: white;
-  font-size: 40px;
-  border-radius: 20px;
-  margin-left: 750px;
-  margin-top: 800px;
-  position: fixed;
-}
-=======
 
 @media (max-width: 2000px) {
     .navbar-header {
@@ -362,4 +320,19 @@ div.navbar-collapse.collapse.in {
     }
 }
 
->>>>>>> f9ec4008b3e7fc50653058b0b82fe08db335c6fb
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

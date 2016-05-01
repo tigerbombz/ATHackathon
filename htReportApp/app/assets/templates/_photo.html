@@ -1,25 +1,38 @@
+<div>
+  
 <div id="photo">
-  <h1 id="optional">[Optional] If you have a photo of the incident, trafficker, or trafficking location, upload it here. </h1>
-  <button id="upload">Upload a Photo<span class="glyphicon glyphicon-camera" id="camera"></span></button><br /><br /><br />
-  <input type="checkbox" ng-model="provideInfo" id="checkAdd"/><span id="provideAdd">Provide Contact Information?</span>
-  <h2 id="contactInfo">We’ll only use this information to contact you if we need more detail about the incident. </h2>
-  <button id="backButt">Back</button>
-  <button id="frontButt">Submit</button>
-  <div id="registration_form" ng-hide="!provideInfo">
-
+  <h2 id="optional">[Optional] If you have a photo of the incident, trafficker, or trafficking location, upload it here. </h2>
+  <div class="fileUpload btn btn-primary">
+        <span>Upload a Photo  <span class="glyphicon glyphicon-camera"></span>
+            <input type="file" class="upload" />
+  </div>
+  <br>
+  <input type="checkbox" ng-model="provideInfo"/><span>Provide Contact Information?</span>
+  <div ng-hide="!provideInfo">
+    <form>
+      
+    </form>
       <form role="form" ng-submit="register()">
         <div class="form-group">
-        <label for="name" id="name">Name:</label>
-          <input type="username" class="form-control" ng-model="new_user.username" id="input">
+        <label for="name">Name:</label>
+          <input type="username" class="form-control" ng-model="new_user.username">
         </div>
       <div class="form-group">
-        <label for="email" id="email">Email Address:</label>
-          <input type="email" class="form-control" ng-model="new_user.email" id="input">
+        <label for="email">Email Address:</label>
+          <input type="email" class="form-control" ng-model="new_user.email">
         </div>
         <div class="form-group">
-        <label for="phoneNumber" id="phoneNumber">Phone Number:</label>
-          <input type="text" class="form-control" ng-model="new_user.password" id="input">
-        
+        <label for="phoneNumber">Phone Number:</label>
+          <input type="text" class="form-control" ng-model="new_user.password">
       </form>
+  </div>
+</div>
+<h5 style="margin-top:50px">We’ll only use this information to contact you if we need more detail about the incident. </h5>
+<div class="row">
+  <div class="col-xs-6" style="padding:0px;">
+    <input type="submit" style="background-color: purple" value="Back" class="btn btn-primary btn-block"/>
+  </div>
+  <div class="col-xs-6" style="padding:0px">
+    <input type="submit" value="Next" class="btn btn-primary btn-block"/>
   </div>
 </div>
