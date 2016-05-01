@@ -283,7 +283,13 @@ div.navbar-collapse.collapse.in {
 #finishText{
   color: white;
 }
-<<<<<<< HEAD
+
+
+.angular-google-map-container {
+        height: 900px;
+}
+
+
 #optional{
   font-size: 40px;
   text-align: center;
@@ -322,6 +328,7 @@ div.navbar-collapse.collapse.in {
   margin-top: 800px;
   position: fixed;
 }
+<<<<<<< HEAD
 .aboutText{
   text-align: center;
   margin-left: 25px;
@@ -333,6 +340,9 @@ div.navbar-collapse.collapse.in {
 
 }
 =======
+=======
+
+>>>>>>> 4ac660c43e00eb09b9779003bf453bd0dbe4aa09
 
 @media (max-width: 2000px) {
     .navbar-header {
@@ -372,4 +382,4 @@ div.navbar-collapse.collapse.in {
     }
 }
 
->>>>>>> f9ec4008b3e7fc50653058b0b82fe08db335c6fb
+
